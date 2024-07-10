@@ -11,11 +11,11 @@ const Navbar = () => {
 			<div className="container-fluid">
 				<a
 					className="navbar-brand"
-					href="#"
+					href="/"
 				>
 					Portfolio
 				</a>
-				<button
+{/* 				<button
 					className="navbar-toggler"
 					type="button"
 					data-bs-toggle="collapse"
@@ -25,7 +25,7 @@ const Navbar = () => {
 					aria-label="Toggle navigation"
 				>
 					<span className="navbar-toggler-icon"></span>
-				</button>
+				</button> */}
 				<div
 					className="collapse navbar-collapse"
 					id="navbarNav"
@@ -35,7 +35,7 @@ const Navbar = () => {
 							<a
 								className="nav-link active"
 								aria-current="page"
-								href="#"
+								href="/"
 							>
 								Home
 							</a>
@@ -43,7 +43,7 @@ const Navbar = () => {
 						<li className="nav-item">
 							<a
 								className="nav-link"
-								href="#"
+								href="/projects"
 							>
 								Projects
 							</a>
@@ -51,7 +51,7 @@ const Navbar = () => {
 						<li className="nav-item">
 							<a
 								className="nav-link"
-								href="#"
+								href="/about-me"
 							>
 								About me
 							</a>

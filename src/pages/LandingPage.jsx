@@ -1,11 +1,14 @@
-import React from 'react'
+// src/LandingPage.jsx
+import React from 'react';
+import Carousel from '../components/Carousel';
 
 const LandingPage = () => {
   return (
-    <div>
-        <h1>Welcome to Daniela's Portfolio</h1>
+    <div className='landing-page'>
+      <h1>Welcome to Daniela's Portfolio</h1>
+      <Carousel />
     </div>
-  )
+  );
 }
 
-export default LandingPage
+export default LandingPage;
